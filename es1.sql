@@ -7,7 +7,7 @@ FROM `ospiti`
 WHERE YEAR(`date_of_birth`) >= 1988;
 SELECT COUNT(`date_of_birth`)
 FROM `ospiti`
-WHERE YEAR(`date_of_birth`) >= 1988; /*risultato 10*/
+WHERE YEAR(`date_of_birth`) >= 1988;
 
 SELECT `name`, `date_of_birth`
 FROM `ospiti`
